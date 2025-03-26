@@ -1,0 +1,17 @@
+{
+    "algorithm": "trpo",
+    "learning_rate": 0.001,
+    "discount_factor": 0.99,
+    "num_episodes": 500,
+    "batch_size": 1,
+    "network": {
+      "hidden_size": 128,
+      "activation": "relu"
+    },
+    "optimizer": "adam",
+    "kl_threshold": 0.01,
+    "seed": 42,
+    "log_path": "logs/trpo_logs.csv",
+    "result_plot": "results/trpo_rewards.png"
+  }
+  

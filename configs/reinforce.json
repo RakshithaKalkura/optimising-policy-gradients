@@ -1,0 +1,16 @@
+{
+    "algorithm": "reinforce",
+    "learning_rate": 0.01,
+    "discount_factor": 0.99,
+    "num_episodes": 500,
+    "batch_size": 1,
+    "network": {
+      "hidden_size": 128,
+      "activation": "relu"
+    },
+    "optimizer": "adam",
+    "seed": 42,
+    "log_path": "logs/reinforce_logs.csv",
+    "result_plot": "results/reinforce_rewards.png"
+  }
+  

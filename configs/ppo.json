@@ -1,0 +1,17 @@
+{
+    "algorithm": "ppo",
+    "learning_rate": 0.001,
+    "discount_factor": 0.99,
+    "num_episodes": 500,
+    "batch_size": 1,
+    "network": {
+      "hidden_size": 128,
+      "activation": "relu"
+    },
+    "optimizer": "adam",
+    "clip_epsilon": 0.2,
+    "seed": 42,
+    "log_path": "logs/ppo_logs.csv",
+    "result_plot": "results/ppo_rewards.png"
+  }
+  

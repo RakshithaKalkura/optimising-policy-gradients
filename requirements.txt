@@ -1,1 +1,4 @@
-gym torch numpy matplotlib
+gym 
+torch 
+numpy 
+matplotlib
